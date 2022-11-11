@@ -29,9 +29,9 @@ th, td {
     bottom: 12px;
     left: -50px;   
     height: auto;
-    width: auto;
+    width: 150px;
     min-width: 100px;
-    max-height:400px;
+    max-height:600px;
     overflow: auto;      
 }
 
