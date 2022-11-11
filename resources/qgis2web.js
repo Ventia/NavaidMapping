@@ -321,7 +321,7 @@ var onSingleClick = function(evt) {
                     'INFO_FORMAT': 'text/html',
                 });
             if (url) {
-                popupText = popupText + '<iframe style="width:100%;height:110px;border:0px;" id="iframe" seamless src="' + url + '"></iframe>';
+                popupText = popupText + '<iframe style="width:50%;height:110px;border:0px;" id="iframe" seamless src="' + url + '"></iframe>';
             }
         }
     }
