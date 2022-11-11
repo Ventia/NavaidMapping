@@ -17,20 +17,21 @@ th, td {
 }
 
 .ol-popup {
-    display: none;
-    position: static;
+   display: none;
+    position: absolute;
     background-color: white;
     -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.2);
     -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
     filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     border: 1px solid #cccccc;
     bottom: 12px;
-    left: -50px;   
-    height: 25%;
-    width: 25%;
-    overflow: auto;      
+    left: -110px;
+    top: -480px;
+    height: 550px;
+    width: 350px;
+    overflow: auto;       
 }
 
 .ol-popup-closer {
