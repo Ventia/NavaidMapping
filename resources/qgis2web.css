@@ -28,8 +28,8 @@ th, td {
     border: 1px solid #cccccc;
     bottom: 12px;
     left: -50px;   
-    height: 100%;
-    width: 100%;
+    max-height: 400px;
+    width: 50%;
     overflow: auto;      
 }
 
