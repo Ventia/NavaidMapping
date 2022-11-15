@@ -9,6 +9,8 @@ html, body {
 th, td {
     vertical-align: top;
     text-align: left;
+    Border: 1px Solid;
+    
 }
 
 #map {
@@ -30,7 +32,7 @@ th, td {
     left: -50px;   
     height: auto;
     width: auto;
-    min-width: 100px;
+    min-width: 400px;
     max-height:400px;
     overflow: auto;      
 }
@@ -43,14 +45,15 @@ th, td {
 }
 
 .ol-popup-closer:after {
-    content: "X";
+    content: "Exit"
+    
 }
 
 .ol-attribution a {
     text-decoration: none;
     color: #666;
     font-family: sans-serif;
-    font-size: 100%;
+    font-size: 0%;
 }
 
 .layer-switcher .panel {
